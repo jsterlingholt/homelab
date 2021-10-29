@@ -1,5 +1,9 @@
 
 # Prepare Pi4 for PXE boot
+Requirements:
+-   Raspberry Pi 4
+-   [Ubuntu Server](https://cdimage.ubuntu.com/ubuntu-server/focal/daily-preinstalled/current/focal-preinstalled-server-arm64+raspi.img.xz)
+-   Coffee
 
 The Raspberry Pi 4 requires you to be booted into an OS to enable net boot. You'll need to install Ubuntu Server on an SD card prior to this.
 
@@ -20,7 +24,6 @@ If your BOOT_ORDER is not set to 0xf21, then follow these steps:
 
 
 ##  Manual Configuration:
-
 ### Grab a copy of a netboot compatible bootloader
 >   
     wget https://github.com/raspberrypi/rpi-eeprom/raw/master/firmware/stable/pieeprom-2020-07-31.bin

@@ -2,7 +2,7 @@
 # Prepare Pi4 for PXE boot
 
 ##  Auto:
->   wget https://github.com/repo/scripts/script.sh
+>   wget https://github.com/jsterlingholt/homelab-cluster/blob/main/scripts/netboot.sh
 
 ##  Manual:
 -   Run this command to see the current boot order configuration

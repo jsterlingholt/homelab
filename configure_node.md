@@ -16,6 +16,7 @@ If your BOOT_ORDER is not set to 0xf21, then follow these steps:
 ##  Automatic Configuration:
 >   
     wget https://github.com/jsterlingholt/homelab-cluster/blob/main/scripts/netboot.sh
+    ./netboot.sh
 
 
 ##  Manual Configuration:

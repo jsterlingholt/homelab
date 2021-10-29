@@ -1,3 +1,0 @@
-[submodule "RaspberryPi4-PXE-Boot"]
-	path = RaspberryPi4-PXE-Boot
-	url = https://github.com/jsterlingholt/RaspberryPi4-PXE-Boot

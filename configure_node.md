@@ -4,7 +4,7 @@ Requirements:
 -   Raspberry Pi 4
 -   [Ubuntu Server](https://cdimage.ubuntu.com/ubuntu-server/focal/daily-preinstalled/current/focal-preinstalled-server-arm64+raspi.img.xz)
 
-### Run this command to see the current boot order configuration
+Run this command to see the current boot order configuration
 >   
     vcgencmd bootloader_config | grep BOOT_ORDER | cut -d '=' -f 2
 

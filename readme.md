@@ -1,11 +1,20 @@
 
-# Homelab
+# Homelab - Cluster Edition
 
-## Cluster Edition
+## Equipment:
 
-### Using RPi 4 Model B
+#### Network:
+    -   EdgeRouter X
 
-- [x]  Prepare RPi4 Nodes for PXE Booting
-- [ ]   Create PXE/TFTP server to deliver OS on each boot
-- [ ]   Use Ansible to configure install & set up Kubernetes
-- [ ]   Use Ansible to configure Terraform, podman to manage Kubernetes
+#### TFTP:
+    -   null
+
+#### Clusters:
+    -   Raspberry Pi 4B 8GB
+    -   Raspberry Pi 4B 4GB
+
+## Progress:
+- [x]   Create Automated & Manual PXE configuration process
+- [ ]   Create Ansible Playbook to configure Master and Worker nodes
+- [ ]   Create CI/CD Workflow to create images for Master/Worker nodes
+- [ ]   Create local TFTP server

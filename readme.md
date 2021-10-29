@@ -7,3 +7,4 @@
 
 - [x]   Prepare RPi4 Nodes for PXE Booting
 - [ ]   Create TFTP server
+- [ ]   Use Ansible to configure install & set up Kubernetes

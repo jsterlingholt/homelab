@@ -6,7 +6,7 @@ The Raspberry Pi 4 requires you to be booted into an OS to enable net boot.
 >   wget https://github.com/jsterlingholt/homelab-cluster/blob/main/scripts/netboot.sh
 
 ##  Manual:
--   Run this command to see the current boot order configuration
+#### Run this command to see the current boot order configuration
 >   vcgencmd bootloader_config | grep BOOT_ORDER | cut -d '=' -f 2
 
 #### The BOOT_ORDER codes are as follows:
@@ -22,4 +22,5 @@ The Raspberry Pi 4 requires you to be booted into an OS to enable net boot.
 
 #### Update BOOT_ORDER
 >   sed -i 's/BOOT_ORDER=.*/BOOT_ORDER=0xf21/g' bootconf.txt
+
 >   sudo rpi-eeprom-config --out bootloader.bin --config bootconf.txt pieeprom-2020-07-31.bin

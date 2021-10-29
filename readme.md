@@ -8,4 +8,4 @@
 - [x]   Prepare RPi4 Nodes for PXE Booting
 - [ ]   Create TFTP server to deliver OS on each boot
 - [ ]   Use Ansible to configure install & set up Kubernetes
-- [ ]   Configure Terraform, podman to manage Kubernetes
+- [ ]   Use Ansible to configure Terraform, podman to manage Kubernetes

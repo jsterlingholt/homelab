@@ -1,6 +1,7 @@
 
 # Prepare Pi4 for PXE boot
 
+* The Raspberry Pi 4 requires you to be booted into an OS to enable net boot.
 ##  Auto:
 >   wget https://github.com/jsterlingholt/homelab-cluster/blob/main/scripts/netboot.sh
 

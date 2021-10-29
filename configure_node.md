@@ -33,3 +33,8 @@ If your BOOT_ORDER is not set to 0xf21, then follow these steps:
 >   
     sed -i 's/BOOT_ORDER=.*/BOOT_ORDER=0xf21/g' bootconf.txt
     sudo rpi-eeprom-config --out bootloader.bin --config bootconf.txt pieeprom-2020-07-31.bin
+
+
+## Lastly, Grab the serial number:
+>
+    cat /proc/cpuinfo | grep Serial | tail -c 9

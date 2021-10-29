@@ -1,0 +1,3 @@
+[submodule "homelab-cluster-node-setup"]
+	path = homelab-cluster-node-setup
+	url = https://github.com/jsterlingholt/homelab-cluster-node-setup

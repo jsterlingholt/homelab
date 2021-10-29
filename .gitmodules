@@ -1,3 +1,6 @@
 [submodule "homelab-cluster-node-setup"]
 	path = homelab-cluster-node-setup
 	url = https://github.com/jsterlingholt/homelab-cluster-node-setup
+[submodule "homelab-cluster-pxe-server"]
+	path = homelab-cluster-pxe-server
+	url = https://github.com/jsterlingholt/homelab-cluster-pxe-server

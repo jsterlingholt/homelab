@@ -9,7 +9,7 @@
 #### TFTP:
     -   null
 
-#### Clusters:
+#### Nodes:
     -   Raspberry Pi 4B 8GB
     -   Raspberry Pi 4B 4GB
 

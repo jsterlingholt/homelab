@@ -3,9 +3,6 @@
 Requirements:
 -   Raspberry Pi 4
 -   [Ubuntu Server](https://cdimage.ubuntu.com/ubuntu-server/focal/daily-preinstalled/current/focal-preinstalled-server-arm64+raspi.img.xz)
--   Coffee
-
-The Raspberry Pi 4 requires you to be booted into an OS to enable net boot. You'll need to install Ubuntu Server on an SD card prior to this.
 
 ### Run this command to see the current boot order configuration
 >   

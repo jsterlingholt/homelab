@@ -1,7 +1,7 @@
 
 # Homelab - Cluster Edition
 
-## Equipment:
+## Equipment: 
 
 #####   Network:
 -   EdgeRouter X

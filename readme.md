@@ -3,15 +3,15 @@
 
 ## Equipment:
 
-#### Network:
-    -   EdgeRouter X
+>   #####   Network:
+>   -   EdgeRouter X
 
-#### TFTP:
-    -   null
+>   #####   TFTP:
+>   -   TBD
 
-#### Nodes:
-    -   Raspberry Pi 4B 8GB
-    -   Raspberry Pi 4B 4GB
+>   #####   Nodes:
+>   - Raspberry Pi 4B 8GB
+>   - Raspberry Pi 4B 4GB
 
 ## Progress:
 - [x]   Create Automated & Manual PXE configuration process

@@ -15,6 +15,8 @@
 
 ## Progress:
 - [x]   Create Automated & Manual PXE configuration process
-- [ ]   Create Ansible Playbook to configure Master and Worker nodes
+- [ ]   Create local TFTP server to serve OS to each node
+- [ ]   Testing
+  - [ ]   Create Ansible Playbook to configure Master and Worker nodes
 - [ ]   Create CI/CD Workflow to create images for nodes
-- [ ]   Create local TFTP server to serve image
+

@@ -7,7 +7,7 @@
 -   EdgeRouter X
 
 #####   TFTP:
--   TBD
+-   Proxmox VM?
 
 #####   Nodes:
 - Raspberry Pi 4B 8GB

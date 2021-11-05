@@ -1,6 +1,0 @@
-[submodule "homelab-cluster-configure-node"]
-	path = homelab-cluster-configure-node
-	url = https://github.com/jsterlingholt/homelab-cluster-configure-node
-[submodule "homelab-cluster-rpi4-netboot"]
-	path = homelab-cluster-rpi4-netboot
-	url = https://github.com/jsterlingholt/homelab-cluster-rpi4-netboot

@@ -12,11 +12,17 @@ At the center of my Homelab is a Proxmox[^Proxmox] server, which has three roles
 
 [^Proxmox]: [Proxmox](https://www.proxmox.com/en/proxmox-ve) is a Debian-based distro with a focus on virtual machines and containers.
 
+<<<<<<< HEAD
+=======
+#####   TFTP:
+-   Proxmox VM?
+>>>>>>> 589a36cc4d554f65bb8dc25c0e915e254ee51b34
 
 
 
 --- 
 ## Progress:
+<<<<<<< HEAD
 - [ ]   Create post-install script
   > -   Install dependencies
   > -   Clone repo
@@ -48,4 +54,11 @@ After each Raspberry Pi node boots from PXE,
     get ansible playbook from control plane
 
 
+=======
+- [x]   Configure Pi for PXE boot
+- [ ]   Create local TFTP server to serve OS to each node
+- [ ]   Create custom OS for TFTP server
+  - [ ]   Ansible Playbook to configure Master and Worker nodes
+  - [ ]   CI/CD Workflow to create images for nodes
+>>>>>>> 589a36cc4d554f65bb8dc25c0e915e254ee51b34
 

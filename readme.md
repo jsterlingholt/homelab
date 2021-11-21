@@ -1,8 +1,8 @@
-# Raspberry Pi Cluster
-
+# Homelab
+##### Raspberry Pi Cluster
 ---
 
-#### Hardware {#hardware}
+#### Hardware
 
 | Qty | Hardware |
 | - | ----------- |
@@ -14,6 +14,7 @@
 01. Clone this directory with submodules:
     >
         git clone --recurse-submodules --remote-submodules https://github.com/jsterlingholt/homelab
+        cd homelab
 
 02. Configure TFTP server 
     >

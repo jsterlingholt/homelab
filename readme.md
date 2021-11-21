@@ -12,8 +12,8 @@
 ---
 
 01. Clone this directory with submodules:
->
-    git clone --recurse-submodules --remote-submodules https://github.com/jsterlingholt/homelab
+    >
+        git clone --recurse-submodules --remote-submodules https://github.com/jsterlingholt/homelab
 
 02. Configure TFTP server
     >

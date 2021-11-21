@@ -2,5 +2,5 @@
 	path = rpi4-netboot
 	url = https://github.com/jsterlingholt/rpi4-netboot
 [submodule "pxe-server"]
-	path = PXE-Server
+	path = pxe-server
 	url = https://github.com/jsterlingholt/pxe-server

@@ -15,7 +15,7 @@
     >
         git clone --recurse-submodules --remote-submodules https://github.com/jsterlingholt/homelab
 
-02. Configure TFTP server
+02. Configure TFTP server {#configure-tftp-server}
     >
         scp pxe-server [$USER]@[$IP]:/home/[$USER]/
         ssh [$USER]@[$IP]

@@ -1,0 +1,3 @@
+[submodule "rpi4-netboot"]
+	path = rpi4-netboot
+	url = https://github.com/jsterlingholt/rpi4-netboot

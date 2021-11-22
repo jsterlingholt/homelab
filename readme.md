@@ -1,5 +1,11 @@
 # Homelab
+
+---
+
 ##### Raspberry Pi Cluster
+A mostly ServerReady compliant cluster, with each node booting arm64 Core OS from a local TFTP server.
+
+**Requirements:**
 
 |   Hardware                |   Qty |
 |   ------------------------|   ----|
@@ -7,27 +13,21 @@
 |   Proxmox VMs             |   2   |
 
 ---
-
-
-
-**End Result:** A mostly ServerReady compliant cluster, with each node booting arm64 Core OS from a local TFTP server.
-
----
 **Steps:**
 
--   **Clone this repository with submodules**
+0.  **Clone this repository with submodules**
     >
         git clone --recurse-submodules --remote-submodules https://github.com/jsterlingholt/homelab
         cd homelab
 
     ---
-    
+
     *The following must be repeated for each node that gets added:*
 
 
--   **Enable pxe boot for each pi**
-    1.  Copy rpi4-netboot directory to remote server
-    2.  Run enable-netboot script
+1.  **Enable pxe boot for each pi**
+    -   Copy rpi4-netboot directory to remote server
+    -   Run enable-netboot script
     > 
         scp -r rpi4-netboot [$USER]@[$IP]:/home/[$USER]/
         ssh [$USER]@[$IP]
@@ -35,10 +35,10 @@
 
     ---
     
--   **Configure TFTP Server**
-    1.  Copy pxe-server directory to remote server
-    2.  Move pxe-server into ~/.bin
-    3.  Run init script
+2.  **Configure TFTP Server**
+    -   Copy pxe-server directory to remote server
+    -   Move pxe-server into ~/.bin
+    -   Run init script
     
     >
         scp -r pxe-server [$USER]@[$IP]:/home/[$USER]/
@@ -50,9 +50,9 @@
     
     ---
 
--   **Configure TrueNAS Server**
-    1.  Words
-    2.  Other Words
+3.  **Configure TrueNAS Server**
+    -   Words
+    -   Other Words
 
     >
         ...

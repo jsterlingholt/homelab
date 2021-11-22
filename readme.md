@@ -15,17 +15,30 @@
 ---
 **Steps:**
 
-1.  **Clone this repository with submodules**
+-   **Clone this repository with submodules**
     >
         git clone --recurse-submodules --remote-submodules https://github.com/jsterlingholt/homelab
         cd homelab
 
     ---
     
-2.  **Configure TFTP Server**
-    1.  Copy pxe-server to remote server
+    *The following must be repeated for each node that gets added:*
+
+
+-   **Enable pxe boot for each pi**
+    1.  Copy rpi4-netboot directory to remote server
+    2.  Run enable-netboot script
+    > 
+        scp -r rpi4-netboot [$USER]@[$IP]:/home/[$USER]/
+        ssh [$USER]@[$IP]
+        sudo ./rpi4-netboot/enable-netboot.sh
+
+    ---
+    
+-   **Configure TFTP Server**
+    1.  Copy pxe-server directory to remote server
     2.  Move pxe-server into ~/.bin
-    3.  Run init script`
+    3.  Run init script
     
     >
         scp -r pxe-server [$USER]@[$IP]:/home/[$USER]/
@@ -36,15 +49,14 @@
 
     
     ---
-    
-3.  **Enable pxe boot for each pi**
-    1.  Meow
-    2.  Meow
-    > 
-        scp -r rpi4-netboot [$USER]@[$IP]:/home/[$USER]/
-        ssh [$USER]@[$IP]
-        sudo ./rpi4-netboot/enable-netboot.sh
-    ---
+
+-   **Configure TrueNAS Server**
+    1.  Words
+    2.  Other Words
+
+    >
+        ...
+
 4. Set up Ignition File
 
 ---
